@@ -34,6 +34,5 @@ namespace TrybeHotel.Repository
             };
             return cityDTO;
         }
-
     }
 }

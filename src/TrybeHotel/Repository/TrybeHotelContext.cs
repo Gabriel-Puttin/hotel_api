@@ -9,6 +9,7 @@ public class TrybeHotelContext : DbContext, ITrybeHotelContext
     public DbSet<City> Cities { get; set; } = null!;
     public DbSet<Hotel> Hotels { get; set; } = null!;
     public DbSet<Room> Rooms { get; set; } = null!;
+    public TrybeHotelContext() { }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

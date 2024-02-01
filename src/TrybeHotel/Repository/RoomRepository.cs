@@ -32,10 +32,11 @@ namespace TrybeHotel.Repository
             return query;
         }
 
-        // 7. Desenvolva o endpoint POST /room
         public RoomDto AddRoom(Room room)
         {
-            throw new NotImplementedException();
+            _context.Rooms.Add(room);
+            _context.SaveChanges();
+            return GetRooms(room.HotelId).First(q => q.Name == room.Name);
         }
 
         // 8. Desenvolva o endpoint DELETE /room/:roomId

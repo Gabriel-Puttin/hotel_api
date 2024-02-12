@@ -64,3 +64,10 @@ dotnet run
 8. Be happie (seja feliz :)
 
 # Swagger UI
+
+Como se trata de um projeto desenvolvido em C#, por padrão a biblioteca Swagger já vem pré configurada, e é uma ótima escolha para documentação dos seus projetos!
+
+## Usando o Swagger UI
+
+Para utilizar a libe, basta executar a aplicação, acessar o navegador com o seu localhost que foi instaciado pelo dotnet, como nessa imagem:
+<img src="/">

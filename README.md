@@ -70,4 +70,6 @@ Como se trata de um projeto desenvolvido em C#, por padrão a biblioteca Swagger
 ## Usando o Swagger UI
 
 Para utilizar a libe, basta executar a aplicação, acessar o navegador com o seu localhost que foi instaciado pelo dotnet, como nessa imagem:
-<img src="/">
+<img src="/src/images/print_dotnet_run.png">.
+Depois é só acrescentar o "/swagger" ao final da url que você terá uma página semelhante a essa:
+<img src="/src/images/print_swagger_ui.png">.

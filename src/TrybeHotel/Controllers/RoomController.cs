@@ -26,6 +26,11 @@ namespace TrybeHotel.Controllers
             return Created("", _repository.AddRoom(room));
         }
 
+        [HttpPut("{id}")]
+        public IActionResult UpdateRoom([FromBody] Room room, int id) {
+            return StatusCode(204, _repository.UpdateRoom(id, room));
+        }
+
         [HttpDelete("{RoomId}")]
         public IActionResult Delete(int RoomId)
         {

@@ -36,7 +36,19 @@ namespace TrybeHotel.Repository
         {
             _context.Rooms.Add(room);
             _context.SaveChanges();
-            return GetRooms(room.HotelId).First(q => q.Name == room.Name);
+            RoomDto findRoom = GetRooms(room.HotelId).First(q => q.Name == room.Name);
+            return findRoom;
+        }
+
+        public RoomDto UpdateRoom(int id, Room room) {
+            var findRoom = _context.Rooms.Where(r => r.RoomId == id).FirstOrDefault();
+            findRoom!.Name = room.Name;
+            findRoom.Capacity = room.Capacity;
+            findRoom.Image = room.Image;
+            findRoom.Hotel = room.Hotel;
+            _context.Rooms.Update(findRoom);
+            _context.SaveChanges();
+            return GetRooms(id).First(q => q.Name == room.Name);;
         }
 
         public void DeleteRoom(int RoomId)

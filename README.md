@@ -35,11 +35,11 @@ Para a execução deste propjeto é necessário ter o .Net instalado (linguagem 
 
 1. Clone o repositório (caso esteja usando chave SSH)
 ```
-git clone git@github.com:Gabriel-Puttin/Store_Manager.git
+git clone git@github.com:Gabriel-Puttin/hotel_api.git
 ```
 2. Entre na pasta que você acabou de clonar
 ```
-cd Store_Manager
+cd src
 ```
 3. Suba a aplicação com o docker-compose
 ```

@@ -41,24 +41,26 @@ git clone git@github.com:Gabriel-Puttin/hotel_api.git
 ```
 cd src
 ```
-3. Suba a aplicação com o docker-compose
+3. Instale as dependências do projeto
+```
+dotnet restore
+```
+4. Suba o container com o banco de dados com o docker-compose
 ```
 docker-compose up -d
 ```
-4. Acesse o terminal do container backend criado
+5. entre na pasta do projeto
 ```
-docker exec -it store_manager bash
+cd TrybeHotel
 ```
-5. Instale as dependências
+6. Suba as migrations para criar o db no banco de dados
 ```
-npm install
+dotnet ef database update
 ```
-6. Crie e gere o banco de dados no container
+7. Execute a aplicação dentro do diretório TrybeHotel
 ```
-npm run migration && npm run seed
+dotnet run
 ```
-7. Rode a aplicação
-```
-npm start
-```
+8. Be happie (seja feliz :)
+
 # Swagger UI

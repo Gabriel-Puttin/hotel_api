@@ -19,7 +19,7 @@ Este projeto teve como objetivo contruir uma API de um sistema de booking de vá
 
 # Documentação
 
-Para a execução deste propjeto é necessário ter o .Net instalado (linguagem nativa em ambientes windows), o Docker e o Docker-Compose instalados na sua máquina. Portanto confira a documentação oficial para a instalação.
+Para a execução deste projeto é necessário ter o .Net instalado (linguagem nativa em ambientes windows), o Docker e o Docker-Compose instalados na sua máquina. Portanto confira a documentação oficial para a instalação.
 
 ## Instalando Dependências
 
@@ -69,7 +69,7 @@ Como se trata de um projeto desenvolvido em C#, por padrão a biblioteca Swagger
 
 ## Usando o Swagger UI
 
-Para utilizar a libe, basta executar a aplicação, acessar o navegador com o seu localhost que foi instaciado pelo dotnet, como nessa imagem:
+Para utilizar a libe, basta executar a aplicação, acessar o navegador com o seu localhost que foi instanciado pelo dotnet, como nessa imagem:
 <img src="/src/images/print_dotnet_run.png">.
 Depois é só acrescentar o "/swagger" ao final da url que você terá uma página semelhante a essa:
 <img src="/src/images/print_swagger_ui.png">.

@@ -8,6 +8,7 @@ Este projeto teve como objetivo contruir uma API de um sistema de booking de vá
 
 # Stacks utilizadas
 
+* C#
 * .NET
 * ASPNET
 * ASPNET Core

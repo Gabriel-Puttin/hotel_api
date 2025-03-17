@@ -19,7 +19,8 @@ namespace TrybeHotel.Repository
                 Name = h.Name,
                 Address = h.Address,
                 CityId = h.CityId,
-                CityName = h.City!.Name
+                CityName = h.City!.Name,
+                State = h.City!.State,
             }).ToList();
 
             return query;
@@ -27,15 +28,18 @@ namespace TrybeHotel.Repository
 
         public HotelDto AddHotel(Hotel hotel)
         {
+            City city = _context.Cities.First(city => city.CityId == hotel.CityId);
             _context.Hotels.Add(hotel);
             _context.SaveChanges();
+
             HotelDto hotelDTO = new HotelDto()
             {
                 HotelId = hotel.HotelId,
                 Name = hotel.Name,
                 Address = hotel.Address,
                 CityId = hotel.CityId,
-                CityName = _context.Cities.First(city => city.CityId == hotel.CityId).Name
+                CityName = city.Name,
+                State = city.State,
             };
 
             return hotelDTO;

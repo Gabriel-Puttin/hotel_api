@@ -1899,6 +1899,19 @@
           }
         }
       },
+      "RichardSzalay.MockHttp/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RichardSzalay.MockHttp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/RichardSzalay.MockHttp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
         "type": "package",
         "runtimeTargets": {
@@ -6332,6 +6345,27 @@
         "lib/netstandard2.0/NuGet.Frameworks.xml",
         "nuget.frameworks.5.11.0.nupkg.sha512",
         "nuget.frameworks.nuspec"
+      ]
+    },
+    "RichardSzalay.MockHttp/6.0.0": {
+      "sha512": "bStGNqIX/MGYtML7K3EzdsE/k5HGVAcg7XgN23TQXGXqxNC9fvYFR94fA0sGM5hAT36R+BBGet6ZDQxXL/IPxg==",
+      "type": "package",
+      "path": "richardszalay.mockhttp/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/RichardSzalay.MockHttp.dll",
+        "lib/net40/RichardSzalay.MockHttp.xml",
+        "lib/net45/RichardSzalay.MockHttp.dll",
+        "lib/net45/RichardSzalay.MockHttp.xml",
+        "lib/netstandard1.1/RichardSzalay.MockHttp.dll",
+        "lib/netstandard1.1/RichardSzalay.MockHttp.xml",
+        "lib/netstandard2.0/RichardSzalay.MockHttp.dll",
+        "lib/netstandard2.0/RichardSzalay.MockHttp.xml",
+        "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/RichardSzalay.MockHttp.XML",
+        "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/RichardSzalay.MockHttp.dll",
+        "richardszalay.mockhttp.6.0.0.nupkg.sha512",
+        "richardszalay.mockhttp.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
@@ -10963,6 +10997,7 @@
       "Microsoft.NET.Test.Sdk >= 17.1.0",
       "Moq >= 4.17.2",
       "Newtonsoft.Json >= 13.0.3",
+      "RichardSzalay.MockHttp >= 6.0.0",
       "TrybeHotel >= 1.0.0",
       "XunitXml.TestLogger >= 3.0.70",
       "coverlet.collector >= 3.1.2",
@@ -11053,6 +11088,10 @@
             "target": "Package",
             "version": "[13.0.3, )"
           },
+          "RichardSzalay.MockHttp": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          },
           "XunitXml.TestLogger": {
             "target": "Package",
             "version": "[3.0.70, )"
@@ -11090,7 +11129,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.115/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.112/RuntimeIdentifierGraph.json"
       }
     }
   }

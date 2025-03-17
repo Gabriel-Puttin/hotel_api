@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VvJrOE9j+oUFM/J42Oiq7fkUhAYTkOrE6c5ntiJ7TdOg4p4XXKGM24FqVKzM0kO60l2br/K1cxTA9yDspHIvwA==",
+  "dgSpecHash": "TRhECaMwEknYt1No4/i5U/o3B2c9XcfVX/gBaeQd2rN5lAZ/KXe9VimeWPPVAjmNUnS6OPtMHO5tkFbhX9U4Nw==",
   "success": true,
   "projectFilePath": "/home/gabriel/Projects/CSharp/csharp-001-projeto-trybe-hotel/src/TrybeHotel/TrybeHotel.csproj",
   "expectedPackageFiles": [
@@ -137,7 +137,18 @@
     "/home/gabriel/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
     "/home/gabriel/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "/home/gabriel/.nuget/packages/system.windows.extensions/5.0.0/system.windows.extensions.5.0.0.nupkg.sha512",
-    "/home/gabriel/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.26/microsoft.netcore.app.host.linux-x64.6.0.26.nupkg.sha512"
+    "/home/gabriel/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.36/microsoft.netcore.app.host.linux-x64.6.0.36.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Text.Json' 7.0.3 has a known high severity vulnerability, https://github.com/advisories/GHSA-hh2w-p6rv-4g7w",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

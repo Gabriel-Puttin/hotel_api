@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using TrybeHotel.Models;
 using TrybeHotel.Repository;
 using TrybeHotel.Dto;
+using Microsoft.AspNetCore.Authorization;
 
 namespace TrybeHotel.Controllers
 {
@@ -17,12 +18,14 @@ namespace TrybeHotel.Controllers
         }
 
         [HttpGet]
+        // [Authorize(Policy = "Client")]
         public IActionResult GetHotels()
         {
             return Ok(_repository.GetHotels());
         }
 
         [HttpPost]
+        [Authorize(Policy = "Admin")]
         public IActionResult PostHotel([FromBody] Hotel hotel)
         {
             return Created("", _repository.AddHotel(hotel));

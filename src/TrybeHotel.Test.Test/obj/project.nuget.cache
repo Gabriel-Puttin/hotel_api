@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JUljnwrgj1I0BgXcKK2hSmWW2EF4gmYyYjPR0Jx0rvFdhfJeWfUNI6p8CVCP6dYVRf1MWv//IzMT1Ig/j+p6BA==",
+  "dgSpecHash": "7GQ9TMzQlbNHzHSuOQtIeL6yOb5XnXIGmT6/Xj2KxPr02D3wvwYTkqcciey47oDgPlcgDOppa93BU3lQZ4wFPw==",
   "success": true,
   "projectFilePath": "/home/gabriel/Projects/CSharp/csharp-001-projeto-trybe-hotel/src/TrybeHotel.Test.Test/TrybeHotel.test.test.csproj",
   "expectedPackageFiles": [
@@ -96,6 +96,7 @@
     "/home/gabriel/.nuget/packages/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
     "/home/gabriel/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/home/gabriel/.nuget/packages/nuget.frameworks/5.11.0/nuget.frameworks.5.11.0.nupkg.sha512",
+    "/home/gabriel/.nuget/packages/richardszalay.mockhttp/6.0.0/richardszalay.mockhttp.6.0.0.nupkg.sha512",
     "/home/gabriel/.nuget/packages/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/4.3.2/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "/home/gabriel/.nuget/packages/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/4.3.2/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "/home/gabriel/.nuget/packages/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl/4.3.2/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",

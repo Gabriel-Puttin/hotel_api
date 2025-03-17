@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8uqFmnzeu99zrNqzAN6DvFLPCm68cJSkykm/6hKHrz7NuQhuBX8r2tRknwU1VfcT6Rj+3o4XUYb8iBrJHyDrkw==",
+  "dgSpecHash": "+7YeZZN/lYVxGE7Oan4FdtKqPT1ZAH9U7W8U88CGR5YQQ8Z7by8mLOoA0t/N6YIjzLjbmVUfvxMUtYHBjTeQKQ==",
   "success": true,
   "projectFilePath": "/home/gabriel/Projects/CSharp/csharp-001-projeto-trybe-hotel/src/TrybeHotel.Test/TrybeHotel.test.csproj",
   "expectedPackageFiles": [
